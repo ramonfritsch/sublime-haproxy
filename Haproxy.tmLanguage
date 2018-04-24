@@ -96,7 +96,7 @@
       <!-- Stats keyword combinations -->
       <dict>
         <key>match</key>
-        <string>\b(stats\s+(admin|auth|enable|hide-version|http-request|realm|refresh|scope|show-desc|show-legends|show-node|socket|timeout|uri))\b</string>
+        <string>\b(stats\s+(admin|auth|enable|bind-process|hide-version|http-request|realm|refresh|scope|show-desc|show-legends|show-node|socket|timeout|uri))\b</string>
         <key>name</key>
         <string>keyword</string>
       </dict>
