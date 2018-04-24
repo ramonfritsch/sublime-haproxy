@@ -69,6 +69,12 @@
       <!-- Http Keyword Combinations -->
       <dict>
         <key>match</key>
+        <string>\b(status|rstatus|rstring|string)\s+.+</string>
+        <key>name</key>
+        <string>string.quoted.double</string>
+      </dict>
+      <dict>
+        <key>match</key>
         <string>\b(http-check\s+(disable-on-404|expect|send-state)|http-(request|response))\b</string>
         <key>name</key>
         <string>keyword</string>
@@ -162,7 +168,7 @@
         <key>match</key>
         <string>\/[\w\.\-\?=]+</string>
         <key>name</key>
-        <string>string.other</string>
+        <string>variable.parameter</string>
       </dict>
     </array>
     <key>scopeName</key>
