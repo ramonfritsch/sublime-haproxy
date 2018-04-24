@@ -160,7 +160,7 @@
       <!-- Everything else -->
       <dict>
         <key>match</key>
-        <string>\/[\w\.]+</string>
+        <string>\/[\w\.\-\?=]+</string>
         <key>name</key>
         <string>string.other</string>
       </dict>
